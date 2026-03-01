@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marquito.CoinbasePro", "Marquito.CoinbasePro\Marquito.CoinbasePro.csproj", "{5E480FC4-5336-4CAA-B66C-E11DFC7D7A17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marquito.CoinbasePro", "Marquito.CoinbasePro\Marquito.CoinbasePro.csproj", "{5E480FC4-5336-4CAA-B66C-E11DFC7D7A17}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarquitoUtils.Main", "..\MarquitoUtils.Main\MarquitoUtils.Main\MarquitoUtils.Main.csproj", "{FC027F42-CF41-4326-BAEC-12F6564DC66E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marquito.CoinbasePro.Tests", "Marquito.CoinbasePro.Tests\Marquito.CoinbasePro.Tests.csproj", "{A62E784F-490A-43D9-BB28-2358552819DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarquitoUtils.TradingAPI", "..\MarquitoUtils.TradingAPI\MarquitoUtils.TradingAPI\MarquitoUtils.TradingAPI.csproj", "{EE4C57F2-902A-985B-A013-991E3646C1E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,13 @@ Global
 		{FC027F42-CF41-4326-BAEC-12F6564DC66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC027F42-CF41-4326-BAEC-12F6564DC66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC027F42-CF41-4326-BAEC-12F6564DC66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62E784F-490A-43D9-BB28-2358552819DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62E784F-490A-43D9-BB28-2358552819DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62E784F-490A-43D9-BB28-2358552819DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4C57F2-902A-985B-A013-991E3646C1E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4C57F2-902A-985B-A013-991E3646C1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4C57F2-902A-985B-A013-991E3646C1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4C57F2-902A-985B-A013-991E3646C1E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
